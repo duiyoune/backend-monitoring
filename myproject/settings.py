@@ -46,7 +46,7 @@ import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
 
 sentry_sdk.init(
-    dsn="YOUR_DSN",
+    dsn="https://6a600b48e9c74f27823a5332a219fdc3@o1351121.ingest.sentry.io/6631436",
     integrations=[DjangoIntegration()],
     release=os.environ.get("VERSION"),
     environment="Production"
